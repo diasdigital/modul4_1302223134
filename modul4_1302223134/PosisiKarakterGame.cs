@@ -60,7 +60,8 @@ namespace modul4_1302223134
         }
 
         public void klikTombol(Trigger trigger)
-        {
+        { 
+
             if (trigger == Trigger.TombolS)
             {
                 Console.WriteLine("tombol arah bawah ditekan");
