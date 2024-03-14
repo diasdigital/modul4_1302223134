@@ -1,6 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using modul4_1302223134;
 
+// Test KodeBuah
+KodeBuah kodeBuah = new KodeBuah();
+Console.WriteLine(kodeBuah.getKodeBuah(KodeBuah.enumBuah.Apel));
+
+
+// Test PosisiKarakterGame
 PosisiKarakterGame PKG = new PosisiKarakterGame();
 
 Console.WriteLine("Posisi sekarang adalah " + PKG.posisiSekarang);
